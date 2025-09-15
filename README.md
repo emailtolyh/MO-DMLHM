@@ -90,11 +90,14 @@ crossover_prob	Crossover probability	0.8	Decrease to preserve diversity (e.g., 0
 mutation_prob	Mutation probability	0.2	Increase for local search (e.g., 0.3)
 
 Notes
-Data Input: Thedetect_new_eventsfunction simulates event generation. For real-world applications, replace it with actual network data (e.g., email interactions, project collaborations).
-Hyperparameter Tuning: Decay rates (lambda_short/lambda_long) and evolutionary parameters should be adjusted based on dataset characteristics. Use grid search for optimal performance.
-Computational Complexity: For large-scale networks (>1000 nodes), reducepop_sizeor enable parallel computing to accelerate optimization.
-Community Count: Thenum_communitiesparameter should align with domain knowledge. Underspecification may cause underfitting, while overspecification increases computational load.
+
+Data Input: Thedetect_new_eventsfunction simulates event generation. For real-world applications, replace it with actual network data (e.g., email interactions, project collaborations).
+Hyperparameter Tuning: Decay rates (lambda_short/lambda_long) and evolutionary parameters should be adjusted based on dataset characteristics. Use grid search for optimal performance.
+Computational Complexity: For large-scale networks (>1000 nodes), reducepop_sizeor enable parallel computing to accelerate optimization.
+Community Count: Thenum_communitiesparameter should align with domain knowledge. Underspecification may cause underfitting, while overspecification increases computational load.
 
 References
-Li, Y. et al. (2025). MO-DMLHM: Multi-Objective Dynamic Hypergraph Modeling for Cross-Layer Community Detection in Organizational Networks.Information Sciences.
-Deb, K. & Jain, H. (2014). An Evolutionary Many-Objective Optimization Algorithm Using Reference-Point-Based Nondominated Sorting Approach.IEEE Transactions on Evolutionary Computation.
+
+Li, Y. et al. (2025). MO-DMLHM: Multi-Objective Dynamic Hypergraph Modeling for Cross-Layer Community Detection in Organizational Networks.Information Sciences.
+
+Deb, K. & Jain, H. (2014). An Evolutionary Many-Objective Optimization Algorithm Using Reference-Point-Based Nondominated Sorting Approach.IEEE Transactions on Evolutionary Computation.
